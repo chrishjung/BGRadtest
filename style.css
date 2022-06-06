@@ -239,7 +239,7 @@ Grid System 1 Style
      
         }
         @keyframes oraymove{
-           0% { transform: scale(1); }
+           0% { transform: scale(1);  }
           50% { transform: scale(1.1); }
           100% { transform: scale(1); }
             }
@@ -249,7 +249,7 @@ Grid System 1 Style
          
             }
             @keyframes iraymove{
-               0% { transform: scale(1.1); }
+               0% { transform: scale(1.1);  }
               50% { transform: scale(1); }
               100% { transform: scale(1.1); }
                 }
@@ -649,10 +649,12 @@ position: absolute;
     @keyframes flyanim {
         0% {
        transform: translate(0px, 0px);
+       -webkit-transform: translateZ(0);
         }
  
           100% {
             transform: translate(-80px, -300px);
+            -webkit-transform: translateZ(0);
           }
       }
 
@@ -723,16 +725,20 @@ position: absolute;
                   @keyframes secdash {
                     0% {
                       stroke-dasharray: 2500;
+                      -webkit-transform: translateZ(0);
                         stroke-dashoffset: 2500;
                     }15% {
                         stroke-dasharray: 2500;
+                        -webkit-transform: translateZ(0);
                           stroke-dashoffset: 2500;
                       }
                       50% {
                         stroke-dashoffset: 5000;
+                        -webkit-transform: translateZ(0);
                       }
                       100% {
                         stroke-dashoffset: 5000;
+                        -webkit-transform: translateZ(0);
                       }
   
                   }
@@ -748,18 +754,22 @@ position: absolute;
                   @keyframes thirddash {
                     0% {
                         stroke-dasharray: 2500;
+                        -webkit-transform: translateZ(0);
                       stroke-dashoffset: 2500;
                     }
                     25% {
                         stroke-dasharray: 2500;
+                        -webkit-transform: translateZ(0);
                       stroke-dashoffset: 2500;
                     }
                       60% {
                         stroke-dasharray: 2500;
+                        -webkit-transform: translateZ(0);
                         stroke-dashoffset: 5000;
                       }
                       100% {
                         stroke-dasharray: 2500;
+                        -webkit-transform: translateZ(0);
                         stroke-dashoffset: 5000;
                       }
 
@@ -873,11 +883,13 @@ position: absolute;
 
                     0% {
                         transform: translateX(-50%);
+                        -webkit-transform: translateZ(0);
                         opacity: 100%;
                     }
                     
                     100% {
                         transform: translateX(500%);
+                        -webkit-transform: translateZ(0);
                         opacity: 100%;
                     }
                 }
@@ -1126,10 +1138,12 @@ Screen Sizes
                                     {
                         
                                         transform: translate(55%, 0%);
+                                        -webkit-transform: translateZ(0);
                                     }
                                     100% {
                                         
                                         transform: translate(55%, .25%);
+                                        -webkit-transform: translateZ(0);
                                     }
                                 }
                                 .pMain {
@@ -1198,9 +1212,11 @@ Screen Sizes
                      @keyframes flyanim2 {
                     0% {
                     transform: translate(0px, 0px);
+                    -webkit-transform: translateZ(0);
                     }       
                     100% {
                     transform: translate(-30px, -100px);
+                    -webkit-transform: translateZ(0);
                     }
                     }
                 }
