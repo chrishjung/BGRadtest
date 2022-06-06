@@ -1165,7 +1165,7 @@ Screen Sizes
                                   }
                                   .Train.active {
                                     transform: translate(-45%, 0%);
-                                    animation: Trainmovesm 40s ease-in-out alternate infinite;
+                                    animation: Trainmovesm 120s ease-in-out infinite;
                                     opacity: 1;
                                 
                                   }
@@ -1174,11 +1174,11 @@ Screen Sizes
                                     0% 
                                     {
                                         transition: transform;
-                                        transform: translateX(-45%);
+                                        transform: translateX(-85%);
                                     }
                                     100% {
                                         transition: transform;
-                                        transform: translateX(-40%);
+                                        transform: translateX(0%);
                                     }
                                 }
 
