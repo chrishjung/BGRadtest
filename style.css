@@ -568,14 +568,17 @@ position: absolute;
                 0% {
                     transition: transform;
                   transform: translate(0,0);
+                  -webkit-transform: translateZ(0);
                 }
                 50% {
                     transition: transform;
                     transform: translate(2%,-2%);
+                    -webkit-transform: translateZ(0);
                   }
                   100% {
                     transition: transform;
                     transform: translate(3%,1%);
+                    -webkit-transform: translateZ(0);
                   }
               }
 
@@ -699,18 +702,23 @@ position: absolute;
                   @keyframes maindash {
                     0% {
                       stroke-dashoffset: 4000;
+                      -webkit-transform: translateZ(0);
                     }
                     45% {
                         stroke-dashoffset: 8000;
+                        -webkit-transform: translateZ(0);
                       }
                       50% {
                         stroke-dashoffset: 8000;
+                        -webkit-transform: translateZ(0);
                       }
                       75% {
                         stroke-dashoffset: 8000;
+                        -webkit-transform: translateZ(0);
                       }
                       100% {
                         stroke-dashoffset: 8000;
+                        -webkit-transform: translateZ(0);
                       }
                   }
 
