@@ -1286,11 +1286,13 @@ Screen Sizes
                                         margin-top: 62vw;
                                         }
 
-                        
-                        .pSecond {  
-                            opacity: 0;
-                            animation: secdashsm 12s ease-out infinite;
-                          }
+                #starcloud {
+                animation: none;  
+                }
+                .pSecond {  
+                    opacity: 0;
+                    animation: secdashsm 12s ease-out infinite;
+                    }
                           .pSecond.active {  
                             opacity: 0;
                             animation: secdashsm 12s ease-out infinite;
