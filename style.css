@@ -1174,11 +1174,11 @@ Screen Sizes
                                     0% 
                                     {
                                         transition: transform;
-                                        transform: translateX(-85%);
+                                        transform: translateX(50%);
                                     }
                                     100% {
                                         transition: transform;
-                                        transform: translateX(0%);
+                                        transform: translateX(-50%);
                                     }
                                 }
 
