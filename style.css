@@ -1160,12 +1160,15 @@ Screen Sizes
                                   }
                                    .Train {
                                     transform: translate(-45%, 0%);
+                                    -webkit-transform: translateZ(0);
+                                    animation: Trainmovesm 20s ease-in-out infinite;
                                     opacity: 1;
                                 
                                   }
                                   .Train.active {
-                                    transform: translate(-45%, 0%);
-                                    animation: Trainmovesm 120s ease-in-out infinite;
+                                    transform: translate3d(-45%, 0%);
+                                    -webkit-transform: translateZ(0);
+                                    animation: Trainmovesm 20s ease-in-out infinite;
                                     opacity: 1;
                                 
                                   }
@@ -1174,11 +1177,13 @@ Screen Sizes
                                     0% 
                                     {
                                         transition: transform;
-                                        transform: translateX(45%);
+                                        -webkit-transform: translateZ(0);
+                                        transform: translate(45%, 0%);
                                     }
                                     100% {
                                         transition: transform;
-                                        transform: translateX(-50%);
+                                        -webkit-transform: translateZ(0);
+                                        transform: translate(-50%, 0%);
                                     }
                                 }
 
